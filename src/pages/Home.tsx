@@ -7,8 +7,6 @@ import Footer from "../components/Footer";
 const Home = () => {
     return (
         <>
-            <Nav />
-            <main>
                 <Welcome />
                 <div className="album py-5 bg-light">
                     <div className="container">
@@ -17,8 +15,7 @@ const Home = () => {
                         </div>
                     </div>
                 </div>
-            </main>
-            <Footer />
+
         </>
     );
 }
